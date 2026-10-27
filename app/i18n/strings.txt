@@ -15,6 +15,7 @@ en = English
 th = ไทย
 zh = 中文（简体）
 de = Deutsch
+ru = Русский
 
 # ── Info page ──────────────────────────────
 
@@ -23,84 +24,98 @@ en = About
 th = เกี่ยวกับ
 zh = 关于
 de = Über
+ru = О приложении
 
 [info.version]
 en = Version: {name} ({code})
 th = เวอร์ชัน: {name} ({code})
 zh = 版本：{name}（{code}）
 de = Version: {name} ({code})
+ru = Версия: {name} ({code})
 
 [info.package]
 en = Package: {package}
 th = แพ็กเกจ: {package}
 zh = 包名：{package}
 de = Paket: {package}
+ru = Имя пакета {package}
 
 [info.credits]
 en = Credits
 th = เครดิต
 zh = 致谢
 de = Mitwirkende
+ru = Авторы
 
 [info.powered_by]
 en = Powered by
 th = ขับเคลื่อนโดย
 zh = 技术支持
 de = Unterstützt von
+ru = На базе
 
 [common.menu]
 en = Menu
 th = เมนู
 zh = 菜单
 de = Menü
+ru = Меню
 
 [info.debug_logging]
 en = Debug logging
 th = บันทึกการดีบัก
 zh = 调试日志
 de = Debug-Protokollierung
+ru = Журнал отладки
 
 [info.hide_navbar]
 en = Hide navigation bar
 th = ซ่อนแถบนำทาง
 zh = 隐藏导航栏
 de = Navigationsleiste ausblenden
+ru = Скрыть панель навигации
 
 [info.network_at_start]
 en = Network page at start
 th = เปิดหน้าเครือข่ายตอนเริ่มแอป
 zh = 启动时打开网络页
 de = Netzwerkseite beim Start
+ru = Страница Сеть на старте
 
 [common.detach]
 en = Detach
 th = ตัดการเชื่อมต่อ
 zh = 去附着
 de = Trennen
+ru = Отключить
 
 [common.attach]
 en = Attach
 th = เชื่อมต่อ
 zh = 附着
 de = Verbinden
+ru = Подключить
 
 [common.reattach]
 en = Re-Attach
 th = เชื่อมต่อใหม่
 zh = 重新附着
 de = Erneut verbinden
+ru = Переподключить
 
 [info.language]
 en = Language
 th = ภาษา
 zh = 语言
 de = Sprache
+ru = Язык
 
 [info.language_system]
 en = System default
 th = ตามเครื่อง
 zh = 跟随系统
 de = Systemstandard
+ru = Системный
 
 # ── Shared ──────────────────────────────
 
@@ -109,18 +124,21 @@ en = Cancel
 th = ยกเลิก
 zh = 取消
 de = Abbrechen
+ru = Отмена
 
 [common.save]
 en = Save
 th = บันทึก
 zh = 保存
 de = Speichern
+ru = Сохранить
 
 [common.none]
 en = None
 th = ไม่มี
 zh = 无
 de = Keine
+ru = Нет
 
 # ── Bands page ──────────────────────────
 
@@ -129,156 +147,182 @@ en = Bands
 th = แบนด์
 zh = 频段
 de = Bänder
+ru = Диапазоны
 
 [bands.filter_shown]
 en = Filter shown bands
 th = กรองแบนด์ที่แสดง
 zh = 筛选显示的频段
 de = Angezeigte Bänder filtern
+ru = Фильтр отображаемых диапазонов
 
 [bands.clear_filter]
 en = Clear filter
 th = ล้างตัวกรอง
 zh = 清除筛选
 de = Filter löschen
+ru = Очистить фильтр
 
 [bands.filter_active]
 en = Filter active
 th = ฟิลเตอร์เปิดอยู่
 zh = 筛选生效中
 de = Filter aktiv
+ru = Фильтр активен
 
 [bands.hide_nr_mode]
 en = Hide NR mode
 th = ซ่อนโหมด NR
 zh = 隐藏 NR 模式
 de = NR-Modus ausblenden
+ru = Скрыть режим NR
 
 [bands.hide_usage]
 en = Hide usage setting
 th = ซ่อนการตั้งค่าการใช้งาน
 zh = 隐藏使用设置
 de = Nutzungseinstellung ausblenden
+ru = Скрыть настройки приоритета сети
 
 [bands.hide_quick_select]
 en = Hide quick select
 th = ซ่อนการเลือกด่วน
 zh = 隐藏快捷选择
 de = Schnellauswahl ausblenden
+ru = Скрыть быстрый выбор
 
 [bands.combine_nr]
 en = Combine NR
 th = รวม NR
 zh = 合并 NR
 de = NR zusammenfassen
+ru = Объединять NR
 
 [bands.reset_defaults]
 en = Reset to hardware defaults
 th = รีเซ็ตเป็นค่าเริ่มต้นของเครื่อง
 zh = 重置为硬件默认
 de = Auf Hardware-Standard zurücksetzen
+ru = Сбросить до аппаратных настроек
 
 [bands.apply_description]
 en = Apply band locks
 th = ใช้การล็อกแบนด์
 zh = 应用频段锁定
 de = Band-Sperren anwenden
+ru = Применить блокировку диапазонов
 
 [bands.rat_lock]
 en = RAT lock
 th = ชนิดเครือข่าย
 zh = RAT 锁定
 de = RAT-Sperre
+ru = Блокировка RAT
 
 [bands.nr_mode]
 en = NR mode
 th = โหมด NR
 zh = NR 模式
 de = NR-Modus
+ru = Режим NR
 
 [bands.usage_setting]
 en = Usage setting
 th = การตั้งค่าการใช้งาน
 zh = 使用设置
 de = Nutzungseinstellung
+ru = Приоритет сети
 
 [bands.voice_centric]
 en = Voice-centric
 th = เน้นเสียง
 zh = 语音优先
 de = Sprachzentriert
+ru = Приоритет голоса
 
 [bands.data_centric]
 en = Data-centric
 th = เน้นข้อมูล
 zh = 数据优先
 de = Datenzentriert
+ru = Приоритет данных 
 
 [bands.quick_selections]
 en = Quick selections
 th = เลือกด่วน
 zh = 快捷选择
 de = Schnellauswahl
+ru = Быстрый выбор
 
 [bands.toggle_groups]
 en = Toggle band groups
 th = สลับกลุ่มแบนด์
 zh = 切换频段组
 de = Bandgruppen umschalten
+ru = Переключение групп диапазонов
 
 [bands.auto_all_rats]
 en = AUTO (All RATs)
 th = อัตโนมัติ (ทุก RAT)
 zh = AUTO（全部 RAT）
 de = AUTO (alle RATs)
+ru = АВТО (все RAT)
 
 [bands.all_bands]
 en = All bands (all RATs)
 th = แบนด์ทั้งหมด (ทุก RAT)
 zh = 全部频段（全部 RAT）
 de = Alle Bänder (alle RATs)
+ru = Все диапазоны (все RAT)
 
 [bands.all_5g]
 en = All 5G bands (NSA+SA)
 th = แบนด์ 5G ทั้งหมด (NSA+SA)
 zh = 全部 5G 频段（NSA+SA）
 de = Alle 5G-Bänder (NSA+SA)
+ru = Все диапазоны 5G (NSA+SA)
 
 [bands.all_nr_sa]
 en = All NR-SA bands
 th = แบนด์ NR-SA ทั้งหมด
 zh = 全部 NR-SA 频段
 de = Alle NR-SA-Bänder
+ru = Все диапазоны NR-SA
 
 [bands.all_nr_nsa]
 en = All NR-NSA bands
 th = แบนด์ NR-NSA ทั้งหมด
 zh = 全部 NR-NSA 频段
 de = Alle NR-NSA-Bänder
+ru = Все диапазоны NR-NSA
 
 [bands.all_nr]
 en = All NR bands
 th = แบนด์ NR ทั้งหมด
 zh = 全部 NR 频段
 de = Alle NR-Bänder
+ru = Все диапазоны NR
 
 [bands.all_lte]
 en = All LTE bands
 th = แบนด์ LTE ทั้งหมด
 zh = 全部 LTE 频段
 de = Alle LTE-Bänder
+ru = Все диапазоны LTE
 
 [bands.all_wcdma]
 en = All WCDMA bands
 th = แบนด์ WCDMA ทั้งหมด
 zh = 全部 WCDMA 频段
 de = Alle WCDMA-Bänder
+ru = Все диапазоны WCDMA
 
 [bands.all_gsm]
 en = All GSM bands
 th = แบนด์ GSM ทั้งหมด
 zh = 全部 GSM 频段
 de = Alle GSM-Bänder
+ru = Все диапазоны GSM
 
 [bands.copy_to_sim2]
 en = Copy selection to SIM 2
