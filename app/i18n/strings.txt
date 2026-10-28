@@ -647,126 +647,147 @@ en = Daemon connection restored
 th = การเชื่อมต่อกับเดมอนกลับมาแล้ว
 zh = 守护进程连接已恢复
 de = Verbindung zum Daemon wiederhergestellt
+ru = Связь с демоном восстановлена
 
 [msg.daemon_lost]
 en = Daemon connection lost — retrying...
 th = การเชื่อมต่อกับเดมอนขาดหาย กำลังลองใหม่...
 zh = 守护进程连接已断开——正在重试...
 de = Verbindung zum Daemon verloren – neuer Versuch...
+ru = Связь с демоном потеряна — повтор...
 
 [msg.daemon_launch_failed]
 en = Daemon Launch Failed
 th = เปิดเดมอนไม่สำเร็จ
 zh = 守护进程启动失败
 de = Daemon-Start fehlgeschlagen
+ru = Сбой запуска демона
 
 [msg.init_failed]
 en = Initialization Failed
 th = การเริ่มต้นล้มเหลว
 zh = 初始化失败
 de = Initialisierung fehlgeschlagen
+ru = Сбой инициализации
 
 [msg.select_sim_failed]
 en = Failed to select SIM {sim}
 th = เลือก SIM {sim} ไม่สำเร็จ
 zh = 选择 SIM {sim} 失败
 de = SIM {sim} konnte nicht ausgewählt werden
+ru = Не удалось выбрать SIM {sim}
 
 [msg.select_sim1_failed]
 en = Failed to select SIM 1: {error}
 th = เลือก SIM 1 ไม่สำเร็จ: {error}
 zh = 选择 SIM 1 失败：{error}
 de = SIM 1 konnte nicht ausgewählt werden: {error}
+ru = Не удалось выбрать SIM 1: {error}
 
 [msg.query_failed]
 en = Failed to query modem state: {error}
 th = สอบถามสถานะโมเด็มไม่สำเร็จ: {error}
 zh = 查询调制解调器状态失败：{error}
 de = Modemstatus konnte nicht abgefragt werden: {error}
+ru = Не удалось запросить состояние модема: {error}
 
 [msg.apply_failed]
 en = Apply failed: {error}
 th = การใช้งานไม่สำเร็จ: {error}
 zh = 应用失败：{error}
 de = Anwenden fehlgeschlagen: {error}
+ru = Сбой применения: {error}
 
 [msg.clear_all_failed]
 en = Clear all failed: {error}
 th = ล้างทั้งหมดไม่สำเร็จ: {error}
 zh = 全部清除失败：{error}
 de = Löschen aller Einträge fehlgeschlagen: {error}
+ru = Сбой очистки всего: {error}
 
 [msg.cleared_all]
 en = Cleared all cell locks for SIM {sim}
 th = ล้างการล็อกเซลล์ทั้งหมดของ SIM {sim} แล้ว
 zh = 已清除 SIM {sim} 的全部小区锁定
 de = Alle Zellensperren für SIM {sim} gelöscht
+ru = Сняты все блокировки сот для SIM {sim}
 
 [msg.clear_5g_conn_failed]
 en = Clear 5G failed (connection error)
 th = ล้าง 5G ไม่สำเร็จ (การเชื่อมต่อผิดพลาด)
 zh = 清除 5G 失败（连接错误）
 de = 5G löschen fehlgeschlagen (Verbindungsfehler)
+ru = Сбой очистки 5G (ошибка соединения) 
 
 [msg.cleared_5g]
 en = Cleared 5G cell lock for SIM {sim}
 th = ล้างการล็อกเซลล์ 5G ของ SIM {sim} แล้ว
 zh = 已清除 SIM {sim} 的 5G 小区锁定
 de = 5G-Zellensperre für SIM {sim} gelöscht
+ru = Снята блокировка соты 5G для SIM {sim}
 
 [msg.clear_4g_failed]
 en = Clear 4G failed: {error}
 th = ล้าง 4G ไม่สำเร็จ: {error}
 zh = 清除 4G 失败：{error}
 de = 4G löschen fehlgeschlagen: {error}
+ru = Сбой очистки 4G: {error}
 
 [msg.cleared_4g]
 en = Cleared 4G cell lock for SIM {sim}
 th = ล้างการล็อกเซลล์ 4G ของ SIM {sim} แล้ว
 zh = 已清除 SIM {sim} 的 4G 小区锁定
 de = 4G-Zellensperre für SIM {sim} gelöscht
+ru = Снята блокировка соты 4G для SIM {sim}
 
 [msg.clear_plmn_failed]
 en = Clear PLMN failed: {error}
 th = ล้าง PLMN ไม่สำเร็จ: {error}
 zh = 清除 PLMN 失败：{error}
 de = PLMN löschen fehlgeschlagen: {error}
+ru = Сбой очистки PLMN: {error}
 
 [msg.cleared_plmn]
 en = Cleared PLMN lock for SIM {sim}
 th = ล้างการล็อก PLMN ของ SIM {sim} แล้ว
 zh = 已清除 SIM {sim} 的 PLMN 锁定
 de = PLMN-Sperre für SIM {sim} gelöscht
+ru = Снята блокировка PLMN для SIM {sim}
 
 [msg.refresh_failed]
 en = Refresh failed
 th = รีเฟรชไม่สำเร็จ
 zh = 刷新失败
 de = Aktualisierung fehlgeschlagen
+ru = Сбой обновления
 
 [msg.refresh_failed_error]
 en = Refresh failed: {error}
 th = รีเฟรชไม่สำเร็จ: {error}
 zh = 刷新失败：{error}
 de = Aktualisierung fehlgeschlagen: {error}
+ru = Сбой обновления: {error}
 
 [msg.refresh_no_sim]
 en = Refresh failed: could not select SIM {sim}
 th = รีเฟรชไม่สำเร็จ: เลือก SIM {sim} ไม่ได้
 zh = 刷新失败：无法选择 SIM {sim}
 de = Aktualisierung fehlgeschlagen: SIM {sim} konnte nicht ausgewählt werden
+ru = Сбой обновления: не удалось выбрать SIM {sim}
 
 [msg.reset_defaults]
 en = Reset to hardware defaults for SIM {sim}
 th = รีเซ็ต SIM {sim} เป็นค่าเริ่มต้นของฮาร์ดแวร์แล้ว
 zh = 已将 SIM {sim} 重置为硬件默认
 de = SIM {sim} auf Hardware-Standard zurückgesetzt
+ru = Сброс к аппаратным настройкам для SIM {sim}
 
 [msg.reset_failed]
 en = Reset failed: {error}
 th = รีเซ็ตไม่สำเร็จ: {error}
 zh = 重置失败：{error}
 de = Zurücksetzen fehlgeschlagen: {error}
+ru = Сбой сброса: {error}
 
 [msg.detach_failed]
 en = Detach failed
@@ -779,36 +800,42 @@ en = Detach failed: {error}
 th = ตัดการเชื่อมต่อไม่สำเร็จ: {error}
 zh = 去附着失败：{error}
 de = Trennen fehlgeschlagen: {error}
+ru = Сбой отключения: {error}
 
 [msg.detached]
 en = Detached from network
 th = ตัดการเชื่อมต่อจากเครือข่ายแล้ว
 zh = 已从网络去附着
 de = Vom Netzwerk getrennt
+ru = Отключено от сети
 
 [msg.attach_failed]
 en = Attach failed
 th = เชื่อมต่อไม่สำเร็จ
 zh = 附着失败
 de = Verbinden fehlgeschlagen
+ru = Сбой подключения
 
 [msg.attach_failed_error]
 en = Attach failed: {error}
 th = เชื่อมต่อไม่สำเร็จ: {error}
 zh = 附着失败：{error}
 de = Verbinden fehlgeschlagen: {error}
+ru = Сбой подключения: {error}
 
 [msg.attached]
 en = Attached to network
 th = เชื่อมต่อกับเครือข่ายแล้ว
 zh = 已附着到网络
 de = Mit dem Netzwerk verbunden
+ru = Подключено к сети
 
 [msg.reattaching]
 en = Re-attaching to network…
 th = กำลังเชื่อมต่อกับเครือข่ายใหม่…
 zh = 正在重新附着到网络…
 de = Erneutes Verbinden mit dem Netzwerk…
+ru = Переподключение к сети...
 
 [msg.reattach_failed]
 en = Re-attach failed
@@ -821,42 +848,49 @@ en = Re-attach failed: {error}
 th = เชื่อมต่อใหม่ไม่สำเร็จ: {error}
 zh = 重新附着失败：{error}
 de = Erneutes Verbinden fehlgeschlagen: {error}
+ru = Сбой переподключения: {error}
 
-[msg.reattach_left_detached]
-en = Re-attach failed; network may be left detached
+[msg.reattach_left_ed]
+en = Re-attach failed; network may be left ed
 th = เชื่อมต่อใหม่ไม่สำเร็จ เครือข่ายอาจยังถูกตัดการเชื่อมต่ออยู่
 zh = 重新附着失败；网络可能仍处于去附着状态
 de = Erneutes Verbinden fehlgeschlagen; das Netzwerk ist möglicherweise getrennt
+ru = Сбой переподключения; сеть может остаться отключенной
 
 [msg.reattach_recovered]
 en = Re-attach recovered: attach succeeded
 th = กู้คืนการเชื่อมต่อใหม่แล้ว: เชื่อมต่อสำเร็จ
 zh = 重新附着已恢复：附着成功
 de = Erneutes Verbinden erfolgreich: Verbindung hergestellt
+ru = Переподключение восстановлено: связь установлена
 
 [msg.reattach_complete]
 en = Re-attach complete
 th = เชื่อมต่อใหม่เสร็จสิ้น
 zh = 重新附着完成
 de = Erneutes Verbinden abgeschlossen
+ru = Переподключение завершено
 
 [msg.need_arfcn_scs]
 en = Need: arfcn scs_khz
 th = ต้องใส่: arfcn scs_khz
 zh = 格式：arfcn scs_khz
 de = Erforderlich: arfcn scs_khz
+ru = Требуется: arfcn scs_khz
 
 [msg.need_arfcn_pci_scs_band]
 en = Need: arfcn pci scs_khz band
 th = ต้องใส่: arfcn pci scs_khz band
 zh = 格式：arfcn pci scs_khz band
 de = Erforderlich: arfcn pci scs_khz band
+ru = Требуется: arfcn pci scs_khz band
 
 [msg.need_arfcn_scs_band_pci]
 en = Need: arfcn scs_khz band pci...
 th = ต้องใส่: arfcn scs_khz band pci...
 zh = 格式：arfcn scs_khz band pci...
 de = Erforderlich: arfcn scs_khz band pci...
+ru = Требуется: arfcn scs_khz band pci...
 
 [msg.need_id_bits_gnb]
 en = Need: id_bits gnb...
